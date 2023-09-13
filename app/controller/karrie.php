@@ -1,5 +1,5 @@
 <?php
-class Home extends JI_Controller
+class Karrie extends JI_Controller
 {
   public function __construct()
   {
@@ -16,8 +16,8 @@ class Home extends JI_Controller
 
     $data['hello'] = "this is from controller";
 
-    $this->putThemeContent("home/home",$data); //pass data to view
-    $this->putJsContent("home/home_bottom",$data); //pass data to view
+    $this->putThemeContent("karrie/home",$data); //pass data to view
+    $this->putJsContent("karrie/home_bottom",$data); //pass data to view
 
     $this->loadLayout("col-1",$data);
     $this->render();
