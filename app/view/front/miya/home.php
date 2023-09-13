@@ -8,9 +8,9 @@
         <p style="font-size:20px;">Seperti di ketahui, miya adalah hero legendaris yang sudah ada sejak pertama kali Mobile Legends dirilis. Bahkan Miya menjadi maskot atau identitas dari Mobile Legends itu sendiri. Saat ada event-event penting, pasti akan ada foto miya yang terpampang. Oleh karena itu kamu harus mengetahui bagaimana kisah miya di Mobile legends</p>
         <p style="font-size:20px;">Miya di ceritakan sebagai saudara dari ELF king, estes, yang turut mambantu bangsa ELF melawan penjajahan yang dilakukan oleh Abyssal Demon dan para Orc. ia sampai harus menggunakan kekuatan Priestess Of The Moon untuk memenangkan perang tersebut. Selain itu, Miya juga berhaprap Moon Goddess bisa terbangun dari tidunya.</p>
         <div class="text-center">
-        
+        <h1><b>Kisah Miya Mobile Legends</b></h1>
         <img src="media/legends.png" alt="Nature" class="responsive">
-        
+        </div>
 
         <p style="font-size:20px;">Meskipun para <b>ELF</b> memiliki umur yang sangat panjang, mereka tidak memiliki tubuh yang abadi. Sepanjang sejarah Land Of Down, ras yang lembut dan rentan ini telah mengalami kesakitan dan penderitaan sebelum akhirnya mendirikan tempant tinggal mereka di Azry Woodlands. Miya hidup dan mengalami seluruh perisriwa ini.</p>
         <p style="font-size:20px;">Lahir di penghujung era yang penuh dengan perselisihan, Miya  menyaksikan barbagai tragedi buruk yang menimpa para ELF dalam perang tersebut, mengikuti <b>Moon Goddess</b>. Kemudian mengalami perang benua kedua dengan para manusia, dan menyaksikan banyak kaumnya sendiri berubah menjadi <b>Dark ELF</b> setelah <b>Abyss</b> merusak dan mencemari <i>Shadow Swamp</i></p>
@@ -25,7 +25,7 @@
 
         <p style="font-size:20px;">Golongan yang dipimpin oleh <b>ELF King, Estes</b>, percaya bahwa Abyss yang jahat akan membawa malapetaka ke seluruh banua, dan para ELF harus berinistif untuk menghancurkan para ibkis.</p>
         <p style="font-size:20px;">Banyak ELF lainnya mempercayai bahwa rakyat mereka telah ckup menalami penderitaan, dan todak seharusnya kembali berperang, serta lebih baik bagi mereka untuk hidup dengan aman di dalam wilayah Azrya Woodlands di bawah perlindngan Lunar Aegis Moon Goddess.</p>
-        <p style="font-size:20px;"></p>
+        <p style="font-size:20px;">Apa yang tidak di mengerti bahwa rakyat mereka telah cukup mengalami</p>
         <img src="media/evice.png" alt="Nature" class="responsive">
 
         <p style="font-size:20px;">Setelah melakukan perjalanan yang sangat panjang, hero ini akhirnya ti di sebuah kerajaan yang terkenal dengan keahlian prajuritnya. di sana, ia bertemu denan seorang prajrit yang sangat tangguh dan memiliki keahlian yang sama dengan dirinya, yaitu menggunakan panah
