@@ -1,17 +1,16 @@
-<main>
+<main calss="Semua">
   <section class="py-5 text-center container">
     <div class="row py-lg-5">
       <div class="col-lg-6 col-md-8 mx-auto">
         <h1 class="fw-light"><b>Cerita Tentang Hero Mobile legends</b></h1>
         <p class="lead text-muted">Mobile legends merupakan salah satu game MOBA yang paling banyaj di mainkan oleh gamer Indonesia/Proplayer.</p>
         <p>
-          <a href="#" class="btn btn-primary my-2">Tambahkan Cerita</a>
-          <a href="#" class="btn btn-secondary my-2">Upload gambar</a>
+          <a href="#" class="btn btn-primary my-2">Tambahkan Cerita dan Upload gambar</a>
         </p>
       </div>
     </div>
   </section>
-  <div class="album py-5 bg-light">
+  <div class="album py-5 bg-light" style="border: 2px solid #6cfffe; ">
     <div class="container">
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
         <div class="col">
@@ -23,7 +22,7 @@
                 <div class="btn-group">
                   <a href="miya" ><button type="button" class="btn btn-primary btn-outline-secondary" style="color:#ffffff;">View</button></a>
                 </div>
-                <small class="text-muted">30 mins</small>
+                <small class="text-muted" >30 mins</small>
               </div>
             </div>
           </div>
@@ -49,7 +48,7 @@
               <p class="card-text text-center"><b>Cerita Tentang Hero lesley.</b></p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <a href="#" ><button type="button" class="btn btn-primary btn-outline-secondary" style="color:#ffffff;">View</button></a>
+                  <a href="lesley" ><button type="button" class="btn btn-primary btn-outline-secondary" style="color:#ffffff;">View</button></a>
                 </div>
                 <small class="text-muted">15 mins</small>
               </div>
@@ -122,6 +121,132 @@
                   <a href="#" ><button type="button" class="btn btn-primary btn-outline-secondary" style="color:#ffffff;">View</button></a>
                 </div>
                 <small class="text-muted">55 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="media/granger.webp" alt="Italian Trulli">
+            <div class="card-body">
+              <p class="card-text text-center"><b>Cerita Tentang Gunung Sinabung.</b></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="#" ><button type="button" class="btn btn-primary btn-outline-secondary" style="color:#ffffff;">View</button></a>
+                </div>
+                <small class="text-muted">11 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="media/granger.webp" alt="Italian Trulli">
+            <div class="card-body">
+              <p class="card-text text-center"><b>Cerita Tentang Gunung Sinabung.</b></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="#" ><button type="button" class="btn btn-primary btn-outline-secondary" style="color:#ffffff;">View</button></a>
+                </div>
+                <small class="text-muted">11 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="media/granger.webp" alt="Italian Trulli">
+            <div class="card-body">
+              <p class="card-text text-center"><b>Cerita Tentang Gunung Sinabung.</b></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="#" ><button type="button" class="btn btn-primary btn-outline-secondary" style="color:#ffffff;">View</button></a>
+                </div>
+                <small class="text-muted">11 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="media/granger.webp" alt="Italian Trulli">
+            <div class="card-body">
+              <p class="card-text text-center"><b>Cerita Tentang Gunung Sinabung.</b></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="#" ><button type="button" class="btn btn-primary btn-outline-secondary" style="color:#ffffff;">View</button></a>
+                </div>
+                <small class="text-muted">11 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="media/granger.webp" alt="Italian Trulli">
+            <div class="card-body">
+              <p class="card-text text-center"><b>Cerita Tentang Gunung Sinabung.</b></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="#" ><button type="button" class="btn btn-primary btn-outline-secondary" style="color:#ffffff;">View</button></a>
+                </div>
+                <small class="text-muted">11 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="media/granger.webp" alt="Italian Trulli">
+            <div class="card-body">
+              <p class="card-text text-center"><b>Cerita Tentang Gunung Sinabung.</b></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="#" ><button type="button" class="btn btn-primary btn-outline-secondary" style="color:#ffffff;">View</button></a>
+                </div>
+                <small class="text-muted">11 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="media/granger.webp" alt="Italian Trulli">
+            <div class="card-body">
+              <p class="card-text text-center"><b>Cerita Tentang Gunung Sinabung.</b></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="#" ><button type="button" class="btn btn-primary btn-outline-secondary" style="color:#ffffff;">View</button></a>
+                </div>
+                <small class="text-muted">11 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="media/granger.webp" alt="Italian Trulli">
+            <div class="card-body">
+              <p class="card-text text-center"><b>Cerita Tentang Gunung Sinabung.</b></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="#" ><button type="button" class="btn btn-primary btn-outline-secondary" style="color:#ffffff;">View</button></a>
+                </div>
+                <small class="text-muted">11 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="media/granger.webp" alt="Italian Trulli">
+            <div class="card-body">
+              <p class="card-text text-center"><b>Cerita Tentang Gunung Sinabung.</b></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="#" ><button type="button" class="btn btn-primary btn-outline-secondary" style="color:#ffffff;">View</button></a>
+                </div>
+                <small class="text-muted">11 mins</small>
               </div>
             </div>
           </div>
