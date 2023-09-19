@@ -18,44 +18,23 @@
         <p style="font-size:20px;">Lesley memasuki Mode Camouflage dan memperoleh pemulihan Energy dua kali lipat, 40% Movement Speed tambahan, serta 75 Physical Attack selama 3 detik. Memberikan atau menerima Damage akan mengakhiri Mode ini. Lawan dapat mendeteksi kamuflase Lesley melalui distorsi dari lingkungan di sekeliling mereka.</p>
         <h1><b>Tactical Grenade (Skill 2)</b></h1>
         <p style="font-size:20px;">Lesley melemparkan Tactical Grenade ke depan, yang meledak dalam area berbentuk kipas di depannya. Skill ini memberikan 150( +50% Total Physical ATK) (Physical Damage) kepada lawan dan menyebabkan efek Knockback kepada mereka. Sementara itu Lesley sedikit melompat ke belakang. Menggunakan Skill ini akan secara langsung membatalkan (Ultimate Snipe) dan mengeluarkan Fatal Bullet.</p>
+        <h1><b>Ultimate Snipe (Ultimate)</b></h1>
+        <p style="font-size:20px;">Lesley mengunci target ke hero lawan dan menambahkan 4 Lethal Bullet berturut-turut, masing-masing :etal Bullet memberikan (Physical Damege) Serta dengan 200 (+80% Physical ATK Tambahan) tambahan 5% HP lawan yang hilang dan memulihkan 10 Energy saat mengenai lawan. Lethal Bullet dapat terhalang oleh hero lawn lainnya. Lesley dapat menghentikan Skill ini lebih cepat, kemudian sebagian dari Cooldown Skill akan dikembalikan.</p>
 
+        <h1><b>Kisah Lesley Mobile Legends</b></h1>
         <div class="text-center">
         <img src="media/lesleylg.png" alt="Nature" class="responsive">
         </div>
-
-        <p style="font-size:20px;"></p>
-        <p style="font-size:20px;"></p>
-        <p style="font-size:20px;"></p>
-        <p style="font-size:20px;"></p>
-        <p style="font-size:20px;"></p>
+        <p style="font-size:20px;">Lesley di besarkan di kediaman kaluarga Vance, di mana ayahnya memimpin keamanan keluarga bangsawan. Dalam penyerangan yang di lakukan oleh keluarga musuhnya, Ayah lesley terbunuh. Ketika para penyerang mendekati kediaman Vance, Lesley mengambil senapan hitam panjang hitam milik ayahnya dan memnuhi misi dari mendiang ayahnya.</p>
+        <p style="font-size:20px;">Air mata Bergulir di pipi lesley saat dia melepaskan tembakan demi tembakan, yang masing-masing menjatuhkan seorang Assasin. Air mata terakhir jatuh ketika tembakan terakhir manjatuhkan orang terakhir dari pasukan keluarga saingannya.</p>
+        <p style="font-size:20px;">Lesley di adopsi oleh keluarga Vance, dengan pemimpin keluarga dari rumah bangsawan tersebut bahkan menempatkan satu-satunya pewaris mereka Harley di bawah pengawasan lesley.</p>
+        <p style="font-size:20px;">Harley adalah seorang pembuat onar alami, yang menggunakan bakatnya dalam sihir untuk menimulkan masalah bagi keluarga Vance, hanya lesley yang bisa mengendalikan harley, perbuatan onar harley secara beruntun adalah bagian terakhir dari kehangatan yang masuk ke dalam hati lesley.</p>
+        <p style="font-size:20px;">Setelah mendengarkan bagaimana harley telah melakukan perjalanan ke Land Of Dawn yang berbahaya, Lesley ikut serta bersama dengan senapan pasukannya yang setia. setelah dia menemukan harkey mulai perjalanan yang sulit, dia menemukan seorang anak muda yang belum dewasa tersebut telah berubah melalui banyak pengalaman hidup yang telah dia lalui.</p>
+        <p style="font-size:20px;">Lesley memutuskan bahwa akan lebih baik melatih adik angkatnya, sementara ia diam-diam melindunginya dai bayang-bayang. Sejak hari itu, semua monster yang terkena sihir Harley juga akan terkena sebuah peluru hitam. Cerita tentang seorang anak muda magis yang diikuti dengan seniper hitam misterius ini pun segera menyebar.</p>
+        <p style="font-size:20px;">Itulah tadi informasi tentang <b>Kisah Lesley Mobile Legends</b> dan juga skil-skil yang wajib banget kalian ketahui tentang hero ini. masih banyak kisah hero Mobile Legends yang belum kami bagikan Terima Kasih.</p>
         <div class="text-center">
 
-        <h1><b>Peperangan Kaum ELF dengan Para Iblis</b></h1>
-        <img src="media/legends2.png" alt="Nature" class="responsive">
-        </div>
-
-        <p style="font-size:20px;"></p>
-        <p style="font-size:20px;"></p>
-        <p style="font-size:20px;"></p>
-        <p style="font-size:20px;"></p>
-        <p style="font-size:20px;"></p>
-        <p style="font-size:20px;"></p>
-        <p style="font-size:20px;"></p>
-        <p style="font-size:20px;"></p>
-        <div class="text-center">
-        <h1><b>Menggunakan Kekuatan Priestess of the Moon</b></h1>
-
-        <img src="media/evice.png" alt="Nature" class="responsive">
-        </div>
-
-        <p style="font-size:20px;"></p>
-        <p style="font-size:20px;"></p>
-        <p style="font-size:20px;"></p>
-        <div class="text-center">
-        <img src="media/elite.png" alt="Nature" class="responsive">
-</div>
-        <p style="font-size:20px;"></p>
-        <p style="font-size:20px;"></p>
+        
 
         </div>
         <div class="col-md-2">

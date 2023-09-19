@@ -62,7 +62,7 @@
               <p class="card-text text-center"><b>Cerita Tentang Hero Bruno.</b></p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <a href="#" ><button type="button" class="btn btn-primary btn-outline-secondary" style="color:#ffffff;">View</button></a>
+                  <a href="bruno" ><button type="button" class="btn btn-primary btn-outline-secondary" style="color:#ffffff;">View</button></a>
                 </div>
                 <small class="text-muted">40 mins</small>
               </div>
