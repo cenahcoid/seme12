@@ -76,7 +76,7 @@
               <p class="card-text text-center"><b>Cerita Tentang Hero Claude.</b></p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <a href="#" ><button type="button" class="btn btn-primary btn-outline-secondary" style="color:#ffffff;">View</button></a>
+                  <a href="claude" ><button type="button" class="btn btn-primary btn-outline-secondary" style="color:#ffffff;">View</button></a>
                 </div>
                 <small class="text-muted">38 mins</small>
               </div>
@@ -90,7 +90,7 @@
               <p class="card-text text-center"><b>Cerita Tentang Hero Layla.</b></p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <a href="#" ><button type="button" class="btn btn-primary btn-outline-secondary" style="color:#ffffff;">View</button></a>
+                  <a href="layla" ><button type="button" class="btn btn-primary btn-outline-secondary" style="color:#ffffff;">View</button></a>
                 </div>
                 <small class="text-muted">60 mins</small>
               </div>

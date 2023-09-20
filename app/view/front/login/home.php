@@ -6,14 +6,14 @@
           <h1>Login</h1>
           <form id="flogin" action="<?=base_url()?>login/proses" method="post">
 
-          <?php if(isset($sess->flash) && strlen($sess->flash)>0){ ?>
-          <div class="row">
-            <!-- Message Notification -->
-            <div class="col s12 red darken-2">
-              <p class="white-text"><b>Alert:</b> <?=$sess->flash?></p>
-            </div>
-          </div>
-          <?php } ?>
+            <?php if(isset($sess->flash) && strlen($sess->flash)>0){ ?>
+              <div class="row">
+                <!-- Message Notification -->
+                <div class="col s12 red darken-2">
+                  <p class="white-text"><b>Alert:</b> <?=$sess->flash?></p>
+                </div>
+              </div>
+            <?php } ?>
 
             <div class="row">
               <div class="input-field col s12">
