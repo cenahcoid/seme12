@@ -143,10 +143,10 @@
           <div class="card shadow-sm">
             <img src="media/yss.png" alt="Italian Trulli">
             <div class="card-body">
-              <p class="card-text text-center"><b>Cerita Tentang Gunung Sinabung.</b></p>
+              <p class="card-text text-center"><b>Cerita Tentang Hero Yi-Sun-Sin.</b></p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <a href="#" ><button type="button" class="btn btn-primary btn-outline-secondary" style="color:#ffffff;">View</button></a>
+                  <a href="yisunsin" ><button type="button" class="btn btn-primary btn-outline-secondary" style="color:#ffffff;">View</button></a>
                 </div>
                 <small class="text-muted">11 mins</small>
               </div>
