@@ -104,7 +104,7 @@
               <p class="card-text text-center"><b>Cerita Tentang Hero Hanabi.</b></p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <a href="#" ><button type="button" class="btn btn-primary btn-outline-secondary" style="color:#ffffff;">View</button></a>
+                  <a href="hanabi" ><button type="button" class="btn btn-primary btn-outline-secondary" style="color:#ffffff;">View</button></a>
                 </div>
                 <small class="text-muted">23 mins</small>
               </div>
@@ -118,7 +118,7 @@
               <p class="card-text text-center"><b>Cerita Tentang Hero Moskov</b></p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <a href="#" ><button type="button" class="btn btn-primary btn-outline-secondary" style="color:#ffffff;">View</button></a>
+                  <a href="moskov" ><button type="button" class="btn btn-primary btn-outline-secondary" style="color:#ffffff;">View</button></a>
                 </div>
                 <small class="text-muted">55 mins</small>
               </div>
@@ -129,10 +129,10 @@
           <div class="card shadow-sm">
             <img src="media/granger.webp" alt="Italian Trulli">
             <div class="card-body">
-              <p class="card-text text-center"><b>Cerita Tentang Gunung Sinabung.</b></p>
+              <p class="card-text text-center"><b>Cerita Tentang hero Granger.</b></p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <a href="#" ><button type="button" class="btn btn-primary btn-outline-secondary" style="color:#ffffff;">View</button></a>
+                  <a href="granger" ><button type="button" class="btn btn-primary btn-outline-secondary" style="color:#ffffff;">View</button></a>
                 </div>
                 <small class="text-muted">11 mins</small>
               </div>
@@ -141,7 +141,7 @@
         </div>
         <div class="col">
           <div class="card shadow-sm">
-            <img src="media/granger.webp" alt="Italian Trulli">
+            <img src="media/yss.png" alt="Italian Trulli">
             <div class="card-body">
               <p class="card-text text-center"><b>Cerita Tentang Gunung Sinabung.</b></p>
               <div class="d-flex justify-content-between align-items-center">
@@ -155,7 +155,7 @@
         </div>
         <div class="col">
           <div class="card shadow-sm">
-            <img src="media/granger.webp" alt="Italian Trulli">
+            <img src="media/kimmy2.png" alt="Italian Trulli">
             <div class="card-body">
               <p class="card-text text-center"><b>Cerita Tentang Gunung Sinabung.</b></p>
               <div class="d-flex justify-content-between align-items-center">
