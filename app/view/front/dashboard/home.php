@@ -169,9 +169,9 @@
         </div>
         <div class="col">
           <div class="card shadow-sm">
-            <img src="media/granger.webp" alt="Italian Trulli">
+            <img src="media/brody.png" alt="Italian Trulli">
             <div class="card-body">
-              <p class="card-text text-center"><b>Cerita Tentang Gunung Sinabung.</b></p>
+              <p class="card-text text-center"><b>Cerita Tentang Brody</b></p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <a href="#" ><button type="button" class="btn btn-primary btn-outline-secondary" style="color:#ffffff;">View</button></a>
@@ -183,9 +183,9 @@
         </div>
         <div class="col">
           <div class="card shadow-sm">
-            <img src="media/granger.webp" alt="Italian Trulli">
+            <img src="media/clint.png" alt="Italian Trulli">
             <div class="card-body">
-              <p class="card-text text-center"><b>Cerita Tentang Gunung Sinabung.</b></p>
+              <p class="card-text text-center"><b>Cerita Tentang Hero Clint.</b></p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <a href="#" ><button type="button" class="btn btn-primary btn-outline-secondary" style="color:#ffffff;">View</button></a>
@@ -197,9 +197,9 @@
         </div>
         <div class="col">
           <div class="card shadow-sm">
-            <img src="media/granger.webp" alt="Italian Trulli">
+            <img src="media/ruby.png" alt="Italian Trulli">
             <div class="card-body">
-              <p class="card-text text-center"><b>Cerita Tentang Gunung Sinabung.</b></p>
+              <p class="card-text text-center"><b>Cerita Tentang Hero Ruby.</b></p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <a href="#" ><button type="button" class="btn btn-primary btn-outline-secondary" style="color:#ffffff;">View</button></a>
@@ -211,9 +211,9 @@
         </div>
         <div class="col">
           <div class="card shadow-sm">
-            <img src="media/granger.webp" alt="Italian Trulli">
+            <img src="media/atlas.png" alt="Italian Trulli">
             <div class="card-body">
-              <p class="card-text text-center"><b>Cerita Tentang Gunung Sinabung.</b></p>
+              <p class="card-text text-center"><b>Cerita Tentang Hero Atlas.</b></p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <a href="#" ><button type="button" class="btn btn-primary btn-outline-secondary" style="color:#ffffff;">View</button></a>
@@ -225,9 +225,9 @@
         </div>
         <div class="col">
           <div class="card shadow-sm">
-            <img src="media/granger.webp" alt="Italian Trulli">
+            <img src="media/barats.png" alt="Italian Trulli">
             <div class="card-body">
-              <p class="card-text text-center"><b>Cerita Tentang Gunung Sinabung.</b></p>
+              <p class="card-text text-center"><b>Cerita TentangHero Barats.</b></p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <a href="#" ><button type="button" class="btn btn-primary btn-outline-secondary" style="color:#ffffff;">View</button></a>
@@ -239,9 +239,9 @@
         </div>
         <div class="col">
           <div class="card shadow-sm">
-            <img src="media/granger.webp" alt="Italian Trulli">
+            <img src="media/baxia.png" alt="Italian Trulli">
             <div class="card-body">
-              <p class="card-text text-center"><b>Cerita Tentang Gunung Sinabung.</b></p>
+              <p class="card-text text-center"><b>Cerita Tentang Hero Baxia.</b></p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <a href="#" ><button type="button" class="btn btn-primary btn-outline-secondary" style="color:#ffffff;">View</button></a>
@@ -253,9 +253,9 @@
         </div>
         <div class="col">
           <div class="card shadow-sm">
-            <img src="media/granger.webp" alt="Italian Trulli">
+            <img src="media/grock.png" alt="Italian Trulli">
             <div class="card-body">
-              <p class="card-text text-center"><b>Cerita Tentang Gunung Sinabung.</b></p>
+              <p class="card-text text-center"><b>Cerita Tentang Hero Greock.</b></p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <a href="#" ><button type="button" class="btn btn-primary btn-outline-secondary" style="color:#ffffff;">View</button></a>
