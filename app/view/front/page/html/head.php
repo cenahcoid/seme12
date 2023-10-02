@@ -29,7 +29,7 @@ main > .container {
       }
     </style>
 
-    
+
     <!-- Custom styles for this template -->
     <link href="sticky-footer-navbar.css" rel="stylesheet">
   </head>
