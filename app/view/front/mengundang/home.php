@@ -10,6 +10,5 @@
     <img src="media/perempuan.png" alt="Avatar">
     <h1 style="color:#a8475e; font-family: Brush Script MT, Helvetica, sans-serif; font-size:50px;">Arini</h1>
     <p style="color:#a8475e; font-size:11px;"><b>Putra Bpk.Siapa dan ibu Siapa</b></p>
-
   </div>
 </div>

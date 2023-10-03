@@ -1,6 +1,9 @@
+
+
 <div class="row" style="background-image: url('media/background.png'); margin:0px;">
   <div class="col-md-12 text-center">
     <h1 class="text-center"></h1>
+
     <img src="media/bunga.png" alt="Italian Trulli">
     <img src="media/pengantin2.png" alt="Italian Trulli">
     <br />
@@ -12,3 +15,23 @@
     <img style="padding-bottom:8px; padding-top:8px;" src="media/bunga-bawah.png" alt="Italian Trulli">
   </div>
 </div>
+  
+<html>
+<body>
+
+  <audio id="myAudio">
+    <source src="media/weding.mp3" type="audio/mpeg">
+  </audio>
+
+  <script>
+    // Ambil elemen tombol dan elemen audio
+    var playButton = document.getElementById('playButton');
+    var audio = document.getElementById('myAudio');
+
+    // Tambahkan event listener untuk tombol
+    playButton.addEventListener('click', function() {
+      audio.play();
+    });
+  </script>
+</body>
+</html>
