@@ -1,5 +1,5 @@
 <?php
-class Galeri extends JI_Controller
+class Mengundang extends JI_Controller
 {
   public function __construct()
   {
@@ -16,8 +16,8 @@ class Galeri extends JI_Controller
 
     $data['hello'] = "this is from controller";
 
-    $this->putThemeContent("galeri/home",$data); //pass data to view
-    $this->putJsContent("galeri/home_bottom",$data); //pass data to view
+    $this->putThemeContent("mengundang/home",$data); //pass data to view
+    $this->putJsContent("mengundang/home_bottom",$data); //pass data to view
 
     $this->loadLayout("col-1",$data);
     $this->render();

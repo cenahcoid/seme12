@@ -1,5 +1,5 @@
 <?php
-class Miya extends JI_Controller
+class Savethedate extends JI_Controller
 {
   public function __construct()
   {
@@ -16,8 +16,8 @@ class Miya extends JI_Controller
 
     $data['hello'] = "this is from controller";
 
-    $this->putThemeContent("miya/home",$data); //pass data to view
-    $this->putJsContent("miya/home_bottom",$data); //pass data to view
+    $this->putThemeContent("savethedate/home",$data); //pass data to view
+    $this->putJsContent("savethedate/home_bottom",$data); //pass data to view
 
     $this->loadLayout("col-1",$data);
     $this->render();
