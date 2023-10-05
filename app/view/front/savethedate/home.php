@@ -11,7 +11,7 @@
   <div class="col-md-12 text-center">
     <h1 class="text-center"></h1>
     <img src="media/bunga.png" alt="Italian Trulli">
-    <h3 style="color:#a8475e; font-family: Brush Script MT, Helvetica, sans-serif; font-size:30px;">Save The Date</h3>
+    <h3 style="color:#a8475e; font-family: Brush Script MT, Helvetica, sans-serif; font-size:30px; ">Save The Date</h3>
     <p style="color:#a8475e; font-family: Lucida Console, Helvetica, sans-serif; font-size:14px;">You Are Invited To The Wedding Of</p>
     <img src="media/pasangan3.png" alt="Avatar">
     <h1 style="color:#a8475e; font-family: Brush Script MT, Helvetica, sans-serif; font-size:40px;">Arini & Junara</h1>
@@ -162,9 +162,9 @@
       <p style="color:#a8475e; font-size:13px; font-family:amaranth;"><b>Beri Ucapan Terbaikmu !</b></p>
 
       <form action="/action_page.php">
-        <label for="fname">Nama</label>
+        <label for="fname" style="color:#a8475e; font-size:13px; font-family:amaranth;">Nama</label>
         <input type="text" id="fname" name="fname"><br><br>
-        <label for="lname">Pesan</label>
+        <label for="lname" style="color:#a8475e; font-size:13px; font-family:amaranth;">Pesan</label>
         <input type="text" id="lname" name="lname"><br><br>
         <input type="submit" value="Submit">
       </form>
