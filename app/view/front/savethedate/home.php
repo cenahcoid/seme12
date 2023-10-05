@@ -153,34 +153,76 @@
     <p style="color:#a8475e; font-size:13px; font-family:amaranth;"><b>Tiada yang dapat kami ungkapkan selain rasa Terima kasih dari hati yang tulus, apabila Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan do'a serta restu kepada kami.</b></p>
   </div>
 </div>
-<html>
-<body>
-  <div class="row" style="background-image: url('media/background.png'); margin:0px;">
-    <div class="col-md-12 text-center">
-      <img src="media/bunga.png" alt="Italian Trulli">
-      <h1 style="color:#a8475e; font-family: Brush Script MT, Helvetica, sans-serif; font-size:38px;">Kirim Pesan</h1>
-      <p style="color:#a8475e; font-size:13px; font-family:amaranth;"><b>Beri Ucapan Terbaikmu !</b></p>
 
-      <form action="/action_page.php">
-        <label for="fname" style="color:#a8475e; font-size:13px; font-family:amaranth;">Nama</label>
-        <input type="text" id="fname" name="fname"><br><br>
-        <label for="lname" style="color:#a8475e; font-size:13px; font-family:amaranth;">Pesan</label>
-        <input type="text" id="lname" name="lname"><br><br>
-        <input type="submit" value="Submit">
-      </form>
+<div class="row" style="background-image: url('media/background.png'); margin:0px;">
+  <div class="col-md-12 text-center">
+    <h1 class="text-center"></h1>
+    <img src="media/bunga.png" alt="Italian Trulli">
+    <html>
+
+    <h1 style="color:#a8475e; font-family: Brush Script MT, Helvetica, sans-serif; font-size:38px;">Beri Ucapan</h1>
+
+
+    <!-- Kolom komentar -->
+    <div id="komentar-container">
+      <!-- Komentar-komentar akan ditampilkan di sini -->
     </div>
-  </div>
 
-</body>
-</html>
-<html>
-<head>
-  <title>Audio Player Example</title>
-</head>
-<body>
-  <audio id="myAudio" controls autoplay>
-    <source src="media/weding.mp3" type="audio/mpeg">
-      Your browser does not support the audio element.
-    </audio>
-  </body>
-  </html>
+    <!-- Formulir untuk menambahkan komentar baru -->
+    <form id="form-komentar">
+      <label for="nama" style="color:#a8475e;"><b>Nama</b></label>
+      <input type="text" id="nama" placeholder="Masukan nama Anda" required>
+      <br />
+      <br />
+      <label for="komentar" style="color:#a8475e;"><b>Pesan</b></label>
+      <input id="komentar" placeholder="Tulis Pesan anda" required>
+      <br />
+      <br />
+      <button type="submit">Kirim</button>
+    </form>
+
+    <!-- JavaScript untuk menampilkan komentar -->
+    <script>
+    // Fungsi untuk menambahkan komentar ke dalam kolom komentar
+    function tambahKomentar(nama, komentar) {
+      // Buat elemen untuk menampilkan komentar
+      var komentarBaru = document.createElement("div");
+      komentarBaru.classList.add("komentar");
+
+      // Tambahkan nama pengirim
+      var namaPengirim = document.createElement("span");
+      namaPengirim.classList.add("nama-pengirim");
+      namaPengirim.textContent = nama + ": ";
+      komentarBaru.appendChild(namaPengirim);
+
+      // Tambahkan isi komentar
+      var isiKomentar = document.createElement("span");
+      isiKomentar.textContent = komentar;
+      komentarBaru.appendChild(isiKomentar);
+
+      // Tambahkan komentar baru ke dalam kolom komentar
+      document.getElementById("komentar-container").appendChild(komentarBaru);
+    }
+
+    // Tambahkan event listener untuk pengiriman formulir
+    document.getElementById("form-komentar").addEventListener("submit", function(event) {
+      event.preventDefault(); // Mencegah pengiriman formulir yang normal
+
+      // Ambil nilai dari input nama dan textarea komentar
+      var nama = document.getElementById("nama").value;
+      var komentar = document.getElementById("komentar").value;
+
+      tambahKomentar(nama, komentar); // Panggil fungsi untuk menambahkan komentar
+      // Reset nilai input nama dan textarea komentar
+      document.getElementById("nama").value = "";
+      document.getElementById("komentar").value = "";
+    });
+    </script>
+    <title>Audio Player Example</title>
+    <audio id="myAudio" controls autoplay>
+      <source src="media/weding.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </html>
+  </div>
+</div>
