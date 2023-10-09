@@ -48,7 +48,18 @@
     <h1 style="color:#a8475e; font-family: Brush Script MT, Helvetica, sans-serif; font-size:38px;">Denah Lokasi</h1>
     <p style="color:#a8475e; font-size:13px; font-family:amaranth;"><b>Bertempat di kediaman mempelai wanita Kp. Tegalkembang Rt/01 Rw/08 Desa Kutawaringin Kec. Kutawaringin Kab. Bandung</b></p>
     <div class="text-center">
-      <a href="#"><button class="button button1 " style="background-color:#a8475e; border: 1px solid #a8475e; border-radius: 25px; color:#ffffff;"><b>Google Maps</b></button></a>
+      <a href="https://www.google.com/maps/place/Cipta+Esensi+Merenah/@-6.9992881,107.5175021,17z/data=!3m1!4b1!4m6!3m5!1s0x2e68efb143f15495:0xde32acdfe4690a35!8m2!3d-6.9992881!4d107.5175021!16s%2Fg%2F11j1k35_3j?entry=ttu"><button class="button button1 " style="background-color:#a8475e; border: 1px solid #a8475e; border-radius: 25px; color:#ffffff;"><b>Google Maps</b></button></a>
+      <script>
+function myMap() {
+var mapProp= {
+  center:new google.maps.LatLng(51.508742,-0.120850),
+  zoom:5,
+};
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+</script>
+
+<script src="https://maps.app.goo.gl/CbfoE431Nv8SKQLS8"></script>
     </div>
   </div>
 </div>
@@ -171,16 +182,16 @@
     <!-- Formulir untuk menambahkan komentar baru -->
     <form id="form-komentar">
       <label for="nama" style="color:#a8475e;"><b>Nama</b></label>
-      <input type="text" id="nama" placeholder="Masukan nama Anda" required>
+      <input type="text" id="nama" style="border: 2px solid #f7838d; padding: 10px; border-radius: 25px;" placeholder="Masukan nama Anda" required>
       <br />
       <br />
-      <label for="komentar" style="color:#a8475e;"><b>Pesan</b></label>
-      <input id="komentar" placeholder="Tulis Pesan anda" required>
+      <label for="komentar" style="color:#a8475e; border"><b>Pesan</b></label>
+      <input id="komentar" style="border: 2px solid #f7838d; padding: 10px; border-radius: 25px;" placeholder="Tulis Pesan anda" required >
       <br />
       <br />
-      <button type="submit">Kirim</button>
+      <button type="submit" style="border: 2px solid #f7838d; padding: 10px; border-radius: 20px; background-color:#f7838d; color:#ffffff;">Kirim Pesan</button>
     </form>
-
+    <br />
     <!-- JavaScript untuk menampilkan komentar -->
     <script>
     // Fungsi untuk menambahkan komentar ke dalam kolom komentar
