@@ -5,6 +5,32 @@
   border-radius: 25px;
   background-color: #f7838d;
 }
+.guestbook {
+  flex: 1;
+  display: block;
+  background-color: #f7838d;
+  border-radius: 8px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .15);
+  margin-left: 15px;
+  min-height: 60px;
+  position: relative;
+  padding: 8px;
+  position: relative;
+  margin-bottom: 10px;
+}
+.user-guestbook {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+.guestbook-list {
+  text-align: left;
+  font-size: 14px !important;
+  width: 100%;
+  padding: 5px 15px 0 0;
+  overflow: auto;
+
+}
 </style>
 
 <div class="row" style="background-image: url('media/background.png'); margin:0px;">
@@ -50,16 +76,16 @@
     <div class="text-center">
       <a href="https://www.google.com/maps/place/Cipta+Esensi+Merenah/@-6.9992881,107.5175021,17z/data=!3m1!4b1!4m6!3m5!1s0x2e68efb143f15495:0xde32acdfe4690a35!8m2!3d-6.9992881!4d107.5175021!16s%2Fg%2F11j1k35_3j?entry=ttu"><button class="button button1 " style="background-color:#a8475e; border: 1px solid #a8475e; border-radius: 25px; color:#ffffff;"><b>Google Maps</b></button></a>
       <script>
-function myMap() {
-var mapProp= {
-  center:new google.maps.LatLng(51.508742,-0.120850),
-  zoom:5,
-};
-var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
-}
-</script>
+      function myMap() {
+        var mapProp= {
+          center:new google.maps.LatLng(51.508742,-0.120850),
+          zoom:5,
+        };
+        var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+      }
+      </script>
 
-<script src="https://maps.app.goo.gl/CbfoE431Nv8SKQLS8"></script>
+      <script src="https://maps.app.goo.gl/CbfoE431Nv8SKQLS8"></script>
     </div>
   </div>
 </div>
@@ -161,6 +187,8 @@ var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
     <p style="color:#a8475e; font-size:13px; font-family:amaranth;"><b>Transfer Ke rekening BCA a.n</b></p>
     <p style="color:#a8475e; font-size:13px; font-family:amaranth;"><b>Arini Dwi Utami</b></p>
     <h1 style="color:#a8475e; font-size:20px;"><b>3790939980</b></h1>
+    <p style="color:#a8475e; font-size:13px; font-family:amaranth;"><b>Junara Nur Hakim</b></p>
+    <h1 style="color:#a8475e; font-size:20px;"><b>6880204864</b></h1>
     <p style="color:#a8475e; font-size:13px; font-family:amaranth;"><b>Tiada yang dapat kami ungkapkan selain rasa Terima kasih dari hati yang tulus, apabila Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan do'a serta restu kepada kami.</b></p>
   </div>
 </div>
@@ -171,69 +199,44 @@ var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
     <img src="media/bunga.png" alt="Italian Trulli">
     <html>
 
-    <h1 style="color:#a8475e; font-family: Brush Script MT, Helvetica, sans-serif; font-size:38px;">Beri Ucapan</h1>
+    <h1 style="color:#a8475e; font-family: Brush Script MT, Helvetica, sans-serif; font-size:38px;">Ucapan & Do'a</h1>
 
+    <?php
+    foreach ($komentar as $key => $value) {
+      ?>
+      <p style="color:#000000; border: 2px solid #f7626f; border-radius: 25px; font-family:amaranth; padding:5px;"><b><u><?=$value->nama?></u></b> <?=$value->pesan?></p>
+      <h2></h2>
+    <?php }
+    ?>
 
-    <!-- Kolom komentar -->
-    <div id="komentar-container">
-      <!-- Komentar-komentar akan ditampilkan di sini -->
+    <div class="elementor-width-container">
+      <div class="guestbook-box-content elementor-comment-box-wrapper" data-id="japarsyifa">
+        <div class="comment-form-contrainer">
+          <form id="post-guestbook-boox">
+            <div class="guestbook-label">
+              <label class="elementor-scren-only" style="color:#8a8a8a; font-family:amaranth"><b>Nama</b></label>
+            </div>
+            <input class="form-control" style="color:#000000; border: 2px solid #f7626f; border-radius: 25px;" type="text" name="guestbook-name" placeholder="Masukan nama anda" required>
+            <div class="guestbook-label" >
+              <label class="elementor-screan-only" style="color:#8a8a8a; font-family:amaranth"><b>Berikan Ucapan</b></label>
+            </div>
+            <textarea class="form-control" style="color:#000000; border: 2px solid #f7626f; border-radius: 25px;" rows="3" name="guestbook-message" placeholder="Berikan ucapan dan Do'a Restu" required>
+            </textarea>
+            <br />
+            <div class="elementor-button-wrapper">
+              <button type="submit" class="elementor-button-link elementor-button elementor-size-sm" style="color:#ffffff; border: 2px solid #f7626f; border-radius: 10px; background-color:#f7838d;">Kirimkan Ucapan</button>
+            </div>
+          </form>
+          <br />
+        </div>
+      </div>
     </div>
-
-    <!-- Formulir untuk menambahkan komentar baru -->
-    <form id="form-komentar">
-      <label for="nama" style="color:#a8475e;"><b>Nama</b></label>
-      <input type="text" id="nama" style="border: 2px solid #f7838d; padding: 10px; border-radius: 25px;" placeholder="Masukan nama Anda" required>
-      <br />
-      <br />
-      <label for="komentar" style="color:#a8475e; border"><b>Pesan</b></label>
-      <input id="komentar" style="border: 2px solid #f7838d; padding: 10px; border-radius: 25px;" placeholder="Tulis Pesan anda" required >
-      <br />
-      <br />
-      <button type="submit" style="border: 2px solid #f7838d; padding: 10px; border-radius: 20px; background-color:#f7838d; color:#ffffff;">Kirim Pesan</button>
-    </form>
-    <br />
-    <!-- JavaScript untuk menampilkan komentar -->
-    <script>
-    // Fungsi untuk menambahkan komentar ke dalam kolom komentar
-    function tambahKomentar(nama, komentar) {
-      // Buat elemen untuk menampilkan komentar
-      var komentarBaru = document.createElement("div");
-      komentarBaru.classList.add("komentar");
-
-      // Tambahkan nama pengirim
-      var namaPengirim = document.createElement("span");
-      namaPengirim.classList.add("nama-pengirim");
-      namaPengirim.textContent = nama + ": ";
-      komentarBaru.appendChild(namaPengirim);
-
-      // Tambahkan isi komentar
-      var isiKomentar = document.createElement("span");
-      isiKomentar.textContent = komentar;
-      komentarBaru.appendChild(isiKomentar);
-
-      // Tambahkan komentar baru ke dalam kolom komentar
-      document.getElementById("komentar-container").appendChild(komentarBaru);
-    }
-
-    // Tambahkan event listener untuk pengiriman formulir
-    document.getElementById("form-komentar").addEventListener("submit", function(event) {
-      event.preventDefault(); // Mencegah pengiriman formulir yang normal
-
-      // Ambil nilai dari input nama dan textarea komentar
-      var nama = document.getElementById("nama").value;
-      var komentar = document.getElementById("komentar").value;
-
-      tambahKomentar(nama, komentar); // Panggil fungsi untuk menambahkan komentar
-      // Reset nilai input nama dan textarea komentar
-      document.getElementById("nama").value = "";
-      document.getElementById("komentar").value = "";
-    });
-    </script>
-    <title>Audio Player Example</title>
-    <audio id="myAudio" controls autoplay>
-      <source src="media/weding.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-      </audio>
-    </html>
   </div>
-</div>
+  <audio id="myAudio" controls autoplay>
+    <source src="media/weding.mp3" type="audio/mpeg">
+    </audio>
+    <br />
+    <br />
+    <br />
+  </div>
+  </html>

@@ -5,10 +5,12 @@ class Savethedate extends JI_Controller
   {
     parent::__construct();
     $this->setTheme('front');
+    $this->load('front/a_komentar_model','akm');
   }
   public function index()
   {
     $data = array();
+    $data['komentar'] = $this->akm->get();
     $this->setTitle('Seme Framework Introduction!');
     $this->setDescription("Congratulation, you have done well.");
     $this->setKeyword('Seme Framework');
